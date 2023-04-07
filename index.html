@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="MORESUCCESS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
+        <title>SiwesProject.FEDPOLEL</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("UaO8UoCYtyGVmlSP4");
+   })();
+</script>
+    </head>
+    <body>
+        <header>
+            <div class="all">
+            <div class="container" id="branding">
+                    <img src="logo.png" width="50px" height="50px" alt="wepage logo">
+                <h1>MORE<span>success</span></h1>
+                </div>
+                <div class="tip">
+                    <nav class="links">
+                          <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa fa-bars navs"></i>
+                        </label>
+                        <ul class="navigation-bar">
+                            <li><a href="#first-sec">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#" onclick="div_show()">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+                <!--popout contact form page-->
+                <div id="holdall">
+                    <div class="popup">
+                        <!--my contact form begins from here-->
+                        <form id="form" name="form">
+                            <a href="#" class="sep" onclick="div_hide()">&times;</a><br>
+                            <h1>Contact us</h1><br>
+                            <tr>
+                            <i class="fa fa-user drop"></i>
+                            <input id="name" name="name" type="text" placeholder="NAME..." required><br><br>
+                            <i class="fa fa-envelope drop"></i>
+                            <input id="email" name="email" type="email" placeholder="EMAIL ID..." required><br><br>
+                            <i class="fa fa-phone message"></i>
+                            <input id="phone" name="phone" type="text" placeholder="PHONE NO..." required><br><br>
+                            <i class="fa fa-comment message"></i>
+                            <textarea id="mess" name="message" placeholder="HOW CAN WE HELP YOU?..." required></textarea><br><br>
+                            <button type="submit" id="submit" onclick="sendEmail()">Send</button>
+                        </tr>
+                        </form>
+                        <!--contact form ends here-->
+                    </div>
+                </div>
+                <br>
+        </header>
+        <main>
+             <!--here is home section-->
+        <section id="first-sec">
+            <div class="hold">
+                <h1>We MORE success develop  a professional <br> and affordable landing pages and <br>contact form pages,using HTML and CSS programming languages with<br>a little touch of JavaScript.</h1><br>
+                <nav class="CTA">
+                    <ul class="buts">
+                <li><a href="#" onclick="div_show()">Learn more</a></li>
+                <li><a href="#" onclick="div_show()">Contact Us</a></li>
+            </ul>
+            </nav>
+            </div>
+        </section>
+        <!--here is about section-->
+        <section id="about">
+            <div class="firsthead">
+            <h1>About Me</h1>
+        </div>
+            <div class="abt">
+                <div class="hold-sec-one">
+                    <img src="ms.png" alt="Author image" width="440px" height="540px">
+                </div>
+                <div class="element-two">
+                    <h1 style="color: black; text-shadow: 0px 0px 0px black;">Hey there,</h1><br>
+                    <p1>I am a front-end web developer, I develop a responsive  and affordable websites, contact form pages with thank you page and landing pages.</p1>
+                </div>
+            </div>
+        </section>
+         <!--here is services section-->
+       <section id="services">
+           <div class="temp">
+              <center><h1>Our services are<h1></center>
+           </div>
+           <div class="list-service">
+            <div class="develop">
+            <i class="fa fa-code icon"></i><br>
+            <h1>WEB DEVELOPMENT</h1>
+            <p>We develop a responsive, Affordable and animated websites landing pages and contact form pages.</p>
+            <button type="submit" class="but"><a href="#" onclick="div_show()">Get started!&rarr;</a></button>
+            </div>
+
+            <div class="develop">
+                <i class="fa fa-envelope icon"></i><br>
+                <h1>WEB DESIGN</h1>
+                <p>We design websites using different types of platforms like getresponse,kajabi and many more.</p>
+                <button type="submit" class="but"><a href="#" onclick="div_show()">Get started!&rarr;</a></button>
+                </div>
+
+                <div class="develop">
+                    <i class="fa fa-pie-chart icon"></i><br>
+                    <h1>GRAPHICS DESIGN</h1>
+                    <p>we also render graphics design services, like flyer, logo, branding, throwpillow and many more.</p>
+                    <button class="but"><a href="#" onclick="div_show()">Get started!&rarr;</a></button>
+                    </div>
+           </div>
+       </section>
+    </main>
+    <footer>
+        <div class="content">
+        <div class="info">
+          <ul>
+            <li><i class="fa fa-map-marker foot" style="color: red; background: darkslategrey;"></i>No 11 Oke Alafia Street, opposite mega, Federal polytechnic<br><b>Ile-Oluji</b></li>
+            <li><i class="fa fa-fax foot" style="color: white; background: darkslategrey;"></i>+234 907 584 1361</li>
+            <li style="color:white;"><i class="fa fa-envelope foot" style="color: white; background: darkslategrey;"></i>moresuccess364@gmail.com</li>
+          </ul>  
+    </div>
+    <div class="abt">
+        <h1><i>About MORE SUCCESS</i><i class="fa fa-caret-right"></i></h1>
+            <p>More Success is an OND student presently, at Federal Polytechnic ile oluji, in computer science department, He is a front-end web developer with about 2years experience of learning, in front-end web development.
+                <br>
+                <a href="https://www.instagram.com/iam_more_success/"><i class="fa fa-instagram social" style="color: rgb(148, 34, 34);"></i></a>
+                <a href="https://web.facebook.com/Iammoresuccess"><i class="fa fa-facebook social" style="color: blue;"></i></a>
+                <a href="https://wa.me/message/DJJ42COKHYS4K1"><i class="fa fa-whatsapp social" style="color:green;"></i></a>
+                <a href="#"><i class="fa fa-snapchat social" style="color: white; background-color: yellow"></i></a>
+                <a href="https://twitter.com/successmore5"><i class="fa fa-twitter social" style="color: dodgerblue;"></i></a>
+                <br>&copy;2023
+            </p>
+    </div>
+</div>
+    </footer>
+    </body>
+</html>

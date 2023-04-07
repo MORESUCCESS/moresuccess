@@ -1,0 +1,569 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+   background: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+span{
+    color: orangered;
+    width: 100%;
+}
+div.container{
+    width: 50%;
+    height: 60%;
+    overflow: hidden;
+    display: inline;
+}
+div.tip{
+    width: 49%;
+    height: 60%;
+    float: right;
+
+}
+header{
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    margin: auto;
+    border-bottom: 5px solid orangered;
+    padding: 1.2em;
+    overflow: hidden;
+    position: fixed;
+}
+header h1{
+    color: darkslategrey;
+    width: 100%;
+    display: inline;
+    font-size: 4.2vw;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 6pt;
+}
+.container img{
+    border-radius: 50%;
+    margin-top: 0;
+    border: 3px solid orangered;
+}
+ul li{
+    display: inline;
+    padding: 0.5em;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+background-color: orangered;
+border: 1px solid darkslategray;
+font-weight: bolder;
+}
+ul li a:hover{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bolder;
+    transition: 2s ease;
+}
+.links{
+    float: right;
+    margin-right: 1em;
+    line-height: 2.1em;
+    width:100%;
+}
+.all{
+    width: 100%;
+    overflow: hidden;
+}
+/**media query to fit on all screens**/
+
+    @media(max-width: 768px){
+        .checkbtn,
+        #first-sec,
+        #first-sec .hold
+        .hold a,#newsletter, #about, .abt,
+        #first, .all,#services{
+      float:none;
+      text-align:center;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+    }
+}
+@media(max-width: 768px){
+    .tip{
+        float: right;
+    }
+}
+@media(max-width: 768px){
+header .all{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    @media(max-width: 768px){
+        #newsletter,.news{
+            margin-right: 3em;
+        }
+    }
+    @media(max-width: 768px){
+        footer .abt h1{
+            margin-right: 2em;
+        }
+    }
+    @media(max-width: 768px){
+        .element-two{
+            padding: 1em;
+        }
+    }
+    @media(max-width: 700px){
+        #first-sec .hold h1{
+            font-size: 23px;
+        }
+    }
+#first-sec{
+    text-align: center;
+    margin-top: 7em;
+    width: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding-bottom: 5em;
+    background-image: url('ms.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto auto;
+    text-shadow: 2px 2px 22px black;
+    border-bottom: 5px solid orangered;
+    animation: anime;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    0%{background-image: url('ms.png');}
+    25%{background-image: url('ms2.png');}
+    50%{background-image: url('ms3.png');}
+    75%{background-image: url('ms4.png');}
+    100%{background-image: url('ms.png');}
+}
+.hold{
+    font-size: 25pt;
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+}
+.hold h1{
+    font-size: 45px;
+}
+.buts{
+    display: inline;
+    line-height: 2em;
+}
+.buts a{
+    text-decoration: none;
+    font-size: 0.3em;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: 4px outset orangered;
+    border-radius: 2em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.buts a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 3s ease;
+    border: 4px outset darkslategrey;
+}
+/**abbout**/
+
+#about{
+    width: 100%;
+    background-color: rgb(192, 233, 220);
+    height: 50%;
+    overflow: hidden;
+    margin-top: 0;
+    padding-bottom: 10em;
+}
+#about .firsthead{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    letter-spacing: 7px;
+    margin-top: 2em;
+    font-weight: bolder;
+} 
+.element-two h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+.hold-sec-one{
+    width: 60%;
+}
+.hold-sec-one img{
+    margin-top: 2em;
+    margin-left: 4em;
+    width: 100%;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 1px 1px 20px black;
+    animation-name: animate;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes animate{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.element-two{
+    box-shadow: 1px 1px 20px black;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(0, 255, 179);
+    margin-top: 2em;
+    border: 1px solid orangered;
+    border-radius: 80px 0px 80px 0px;
+    border-style: double;
+    height: 95%;
+    overflow: hidden;
+    animation-name: animate;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+.element-two p1{
+    font-size: 2em;
+    line-height: 35pt;
+    margin-top: 3em;
+}
+div.abt{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:10px;
+}
+/**services**/
+#services{
+    width: 100%;
+    background-color:rgb(0, 255, 179) ;
+    overflow: hidden;
+}
+.temp{
+    width: 90%;
+}
+.temp h1{
+    font-size: 4em;
+}
+.list-service{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:10px;
+    background: paleturquoise;
+    width: 100%;
+  padding-bottom: 100px; 
+}
+.develop h1{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.develop p{
+    font-size: 2em;
+}
+.develop{
+    width: 80%;
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    box-shadow: 1px 1px 20px black;
+}
+.icon{
+    background-color: white;
+    color:aquamarine;
+    border: 2px outset orangered;
+    border-radius: 50%;
+    font-size: 5em;
+    margin-top: 0.4em;
+    width: 150px;
+}
+.but a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+.but{
+padding: 8px;
+background: orangered;
+color: white;
+border-radius: 30px;
+border: 0px;
+margin-top: 1em;
+font-weight: bolder;
+}
+.but:hover{
+    left: 1em;
+    transform: rotate(10deg);
+}
+/**WEBPAGE FOOTER**/
+footer{
+    background-color: rgb(0, 255, 179);
+    color: darkslategrey;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 1em;
+    
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer ul li{
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 30px black;
+    font-weight: bolder;
+}
+.foot{
+    width: 30px;
+    border-radius: 50%;
+    height: 20px;
+    text-align: center;
+}
+.abt{
+    text-align: center;
+    margin-right: 3em;
+    color: black;
+    font-weight: bolder;
+    width: 100%;
+}
+.abt h1{
+    color: white;
+    text-shadow: 1px 1px 20px black;
+}
+.content p{
+    font-weight: bolder;
+    color: black;
+    font-size: 1em;
+    margin-right: 2em;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:3px;
+}
+.social{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 20px black;
+}
+
+/* poping out contactus form page */
+#holdall{
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 4em;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+}
+#holdall form h1{
+    font-weight: bolder;
+    font-size: 3em;
+    color: white;
+}
+#form{
+    margin-left: 4em;
+    background-color:  rgb(0, 255, 179);
+    width: 30%;
+    padding: 2em;
+    box-shadow: 1px 1px 20px grey;
+    text-align: center;
+    font-family: sans-serif;
+    border: 7px outset orangered;
+    border-style: double;
+    border-radius: 40px;
+    overflow: hidden;
+}
+#form input[type="text"],input[type="email"]{
+    width: 40%;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: 0px;
+    padding-right: 5em;
+}
+textarea{
+    padding-right: 5em;
+    padding-bottom: 4em;
+    background-color: whitesmoke;
+    margin-left: 2.3em;
+    width: 40%;
+    padding-left: 1em;
+}
+#form .sep{
+    text-decoration: none;
+    background-color: RED;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    padding: 7px;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 20px;
+    left: 35%;
+    bottom: 92%;
+}
+#submit{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(241, 24, 61);
+    color: white;
+    font-weight: bolder;
+    border: 0px;
+    width: 50%;
+    cursor: pointer;
+}
+.drop{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 0px;
+}
+.message{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 0px;
+    margin-bottom: 2em;
+    margin-left: -0.6em;
+    position: absolute;
+}
+#phone{
+    margin-left: 2.7em;
+}
+.fa-phone{
+    margin-left: 0.5px;
+}
+/* setting the media query for the popup form so as to become responsive on moblie phones or other screens */
+@media(max-width:768px){
+    #holdall{
+       margin-right: 2em;
+       margin-left: -3em;
+       width: 48vh;
+       height: 90%;
+    }
+}
+@media(max-width:768px){
+    #holdall #form h1{
+        font-size: 18px;
+    }
+}
+@media(max-width:768px){
+    #form{
+        width: 60%;
+    }
+}
+@media(max-width:768px){
+    #form .sep{
+        position: absolute;
+        left: 71%;
+    }
+}
+@media(max-width:768px){
+    .abt .element-two{
+        margin-left: 2em;
+        padding: 1em;
+    }
+}
+
+@media(max-width:768px){
+    #newsletter{
+        justify-content: left;
+    }
+}
+@media(max-width:768px){
+    .sep{
+        position: relative;
+        padding: 0px;
+        right: 4em;
+        width: 1px;
+        left: 0;
+        bottom: 5px;
+    }
+}
+
+/*adding additional functions, editing the nav bars*/
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    color: orangered;
+    line-height: 80px;
+    margin-right: 0.9em;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* using media queries for the navigation bar
+so as to make it look good on mobile devices */
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+        cursor: pointer;
+    }
+    .navigation-bar{
+        background: rgba(14, 54, 74, 0.8);
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 130px;
+        left: -100%;
+        transition: all .2s;
+        text-align: center;
+    }
+    nav .navigation-bar li{
+        display: block;
+        background-color: none;
+        line-height: 80px;
+       
+    }
+    nav .navigation-bar li a {
+        font-size: 22px;
+        background-color:unset;
+    }
+}
+#check:checked~ul{
+    left: 0;
+}
+@media (max-width:858px){
+    header{
+        height: 16vh;
+    }
+}
+@media (max-width:858px){
+    #first-sec{
+        margin-top: 8em;
+    }
+}
