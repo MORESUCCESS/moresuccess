@@ -1,10 +1,10 @@
-# 👋 Hey, I'm MORESUCCESS – Full Stack Developer
+#  Hey, I'm ms2dwrld – Full Stack Web Developer
 
 Welcome to my GitHub profile! I'm a passionate **Full Stack Developer** crafting seamless web experiences from front-end to back-end. I love building scalable applications, solving complex problems, and collaborating with talented developers.
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 - 💻 **Full Stack Developer** specializing in modern web technologies
 - 🔥 Currently exploring **Express.js** and deepening my backend expertise
@@ -55,7 +55,7 @@ A powerful lead generation website that empowers users to find the right leads a
 
 ---
 
-### 🌐 [React Portfolio](https://github.com/MORESUCCESS/react-portfolio)
+###  [React Portfolio](https://github.com/MORESUCCESS/react-portfolio)
 **Personal Portfolio Website**
 
 A modern, responsive portfolio showcasing my projects, skills, and professional journey. Built with React and styled with Tailwind CSS for a clean, professional aesthetic.
@@ -85,7 +85,7 @@ A modern, responsive portfolio showcasing my projects, skills, and professional 
 ## 📱 Let's Connect
 
 - 🐦 **Twitter/X:** [@MS_On_This](https://twitter.com/MS_On_This)
-- 🌍 **Portfolio:** [ms2dwrld.me](https://ms2dwrld.me)
+- 🌍 **Portfolio:** [ms2dwrld.me](https://ms2dwrld.tech)
 - 📧 **Email:** ms2dwrld@gmail.com
 - 💼 **GitHub:** [github.com/MORESUCCESS](https://github.com/MORESUCCESS)
 
